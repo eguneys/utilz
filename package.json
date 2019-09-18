@@ -1,0 +1,23 @@
+{
+  "name": "outilz",
+  "version": "1.0.1",
+  "description": "Utility object functions like memoize objMap objForeach",
+  "keywords": [
+    "utility",
+    "object",
+    "es6"
+  ],
+  "main": "util.js",
+  "repository": "https://github.com/eguneys/utilz",
+  "author": "eguneys",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir ./",
+    "prepublish": "yarn run compile"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  }
+}
